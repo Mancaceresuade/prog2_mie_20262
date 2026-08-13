@@ -8,6 +8,9 @@ public class Cola implements IColaTDA{
     }
     @Override
     public void acolar(int x) {
+        if(indice >= 100)
+            throw new RuntimeException("Excede capadidad");
+        // alternativa redimensionar array interno
         for (int i =indice-1; i >= 0; i--) {
             datos[i+1] = datos[i];
         }
