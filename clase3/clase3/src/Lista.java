@@ -22,8 +22,9 @@ public class Lista<T> implements IListaTDA<T> {
     public String toString() {
         StringBuilder out = new StringBuilder();
         Nodo<T> pivote = primero.getNext();
-        while(pivote.getNext() != null) {
-            out.append(pivote.getInfo());
+        while(pivote != null) {
+            System.out.println("imprimiendo");
+            out.append(pivote.getInfo() + " ");
             pivote = pivote.getNext();
         }
         return out.toString();

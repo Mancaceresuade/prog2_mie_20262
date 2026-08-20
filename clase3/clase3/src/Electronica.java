@@ -6,5 +6,9 @@ public class Electronica {
         this.id = id;
         this.descripcion = descripcion;
     }
+    @Override
+    public String toString() {
+        return "Electronica [id=" + id + ", descripcion=" + descripcion + "]";
+    }
     
 }
