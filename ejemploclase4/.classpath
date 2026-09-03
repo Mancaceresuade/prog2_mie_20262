@@ -1,0 +1,10 @@
+<classpath> 
+    <classpathentry kind="src" path="src"/> 
+    <classpathentry kind="lib" path="lib/gson-2.8.2.jar.jar"/> 
+    <classpathentry kind="lib" path="lib/junit-platform-console-standalone-1.10.0.jar"/> 
+    <classpathentry kind="lib" path="lib/junit-jupiter-api-5.10.0.jar"/> 
+    <classpathentry kind="lib" path="lib/junit-jupiter-engine-5.10.0.jar"/> 
+    <classpathentry kind="lib" path="lib/junit-platform-engine-1.10.0.jar"/> 
+
+    <classpathentry kind="output" path="bin"/> 
+</classpath>

@@ -1,0 +1,9 @@
+{
+    "nombre":"mi sistema version 0.1",
+    "productos": [{"id":"100","nombre":"mesa"},
+        {"id":"110","nombre":"silla"}],
+    "otrosProductos":{
+        "1000": {"id":"1000","nombre":"mesa"},
+        "1001": {"id":"1001","nombre":"mesa"}
+    }    
+}
