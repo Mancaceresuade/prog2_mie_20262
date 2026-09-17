@@ -2,7 +2,7 @@ public class ArbolBinarioBusqueda<T extends Comparable<T>> {
  
     ArbolBinario<T> arbol = new ArbolBinario<>();
 
-    // para que sea MST el irep indica: todos los hijos
+    // para que sea BST el irep indica: todos los hijos
     // menores a la izquierda y los mayores a la derecha
     public void agregar(T elemento) {
         if (arbol.raiz == null) {
