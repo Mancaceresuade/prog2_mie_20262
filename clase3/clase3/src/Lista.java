@@ -8,15 +8,15 @@ public class Lista<T> implements IListaTDA<T> {
     }
 
     public void add(T elemento) {
-        Nodo<T> nuevo = new Nodo<>();
-        nuevo.setInfo(elemento);
-        Nodo<T> pivote = new Nodo<>();
-        pivote = this.primero;
+        Nodo<T> nuevo = new Nodo<>(); //1
+        nuevo.setInfo(elemento); // 1
+        Nodo<T> pivote = new Nodo<>(); //2
+        pivote = this.primero; // 2
         while(pivote.getNext() != null) {
-            pivote = pivote.getNext();
+            pivote = pivote.getNext(); // va hasta el ultino => n
         }
-        pivote.setNext(nuevo);
-    }
+        pivote.setNext(nuevo); // 2
+    } // complejidad ? f(n)= 8+2n =>  O(n)
 
     @Override
     public String toString() {

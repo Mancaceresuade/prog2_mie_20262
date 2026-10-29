@@ -10,9 +10,10 @@ public class Pila implements IPilaTDA{
 
     @Override
     public void Apilar(int x) {
+        // falta lanzar excepcion si indice > 100
         datos[indice] = x;
         indice++; // indice = indice +1
-    }
+    } // son 4 operciones => O(1)
 
     @Override
     public void Desapilar() {

@@ -27,7 +27,7 @@ public class DiccionarioSimple implements IDiccionarioSimpleTDA{
         elemento.clave = clave;
         elemento.valor = valor;
         this.elementos[cantidad] = elemento;
-    }
+    }  // 6 operaciones apox, =>  O(1)
 
 
     private boolean existeClave(int clave) {

@@ -16,8 +16,9 @@ public class Cola implements IColaTDA{
         }
         datos[0] = x;
         indice ++;
-    }
-
+    } // complejidad asintotica
+    // peor caso O(n)
+    
     @Override
     public void desacolar() {
         if(!colaVacia()) {
